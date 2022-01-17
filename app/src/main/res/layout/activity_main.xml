@@ -13,7 +13,7 @@
         android:background="@color/white"
         android:padding="@dimen/padding_regular"
         android:text="@string/titol"
-        android:textSize="100px"
+        android:textSize="75px"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
         android:textAlignment="center"
         android:textColor="@color/black"
