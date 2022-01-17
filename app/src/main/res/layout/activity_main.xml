@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#FFFCCC"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,7 +13,9 @@
         android:background="@color/white"
         android:padding="@dimen/padding_regular"
         android:text="@string/titol"
+        android:textSize="100px"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
@@ -34,8 +37,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/titol"
+                android:textSize="50px"
                 android:padding="@dimen/padding_regular"
                 android:text="@string/subtitol"
+                android:textAlignment="center"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
 
 
@@ -46,6 +51,7 @@
                 android:autoLink="web"
                 android:lineSpacingExtra="5sp"
                 android:padding="@dimen/padding_regular"
+                android:justificationMode="inter_word"
                 android:text="@string/text_article" />
 
 
