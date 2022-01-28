@@ -1,0 +1,4 @@
+com/example/practica1choton/BuildConfig.java
+ com.example.practica1choton.BuildConfig
+com/example/practica1choton/MainActivity.java
+ com.example.practica1choton.MainActivity
